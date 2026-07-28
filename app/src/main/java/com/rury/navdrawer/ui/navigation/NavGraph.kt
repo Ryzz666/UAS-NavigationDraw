@@ -1,13 +1,13 @@
-package com.naufal.navdrawer.ui.navigation
+package com.rury.navdrawer.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.naufal.navdrawer.ui.screens.HomeScreen
-import com.naufal.navdrawer.ui.screens.Screen1
-import com.naufal.navdrawer.ui.screens.Screen2
-import com.naufal.navdrawer.ui.screens.Screen3
+import com.rury.navdrawer.ui.screens.HomeScreen
+import com.rury.navdrawer.ui.screens.Screen1
+import com.rury.navdrawer.ui.screens.Screen2
+import com.rury.navdrawer.ui.screens.Screen3
 
 @Composable
 fun NavGraph(

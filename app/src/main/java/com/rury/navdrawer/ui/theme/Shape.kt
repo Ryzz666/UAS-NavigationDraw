@@ -1,4 +1,4 @@
-package com.naufal.navdrawer.ui.theme
+package com.rury.navdrawer.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes

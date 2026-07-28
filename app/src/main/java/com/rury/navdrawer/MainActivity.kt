@@ -1,12 +1,12 @@
-package com.naufal.navdrawer
+package com.rury.navdrawer
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.navigation.compose.rememberNavController
-import com.naufal.navdrawer.ui.navigation.NavGraph
-import com.naufal.navdrawer.ui.theme.NavDrawerAppTheme
+import com.rury.navdrawer.ui.navigation.NavGraph
+import com.rury.navdrawer.ui.theme.NavDrawerAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

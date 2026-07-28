@@ -1,4 +1,4 @@
-package com.naufal.navdrawer.ui.theme
+package com.rury.navdrawer.ui.theme
 
 import android.app.Activity
 import androidx.compose.material3.MaterialTheme

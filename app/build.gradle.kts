@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.naufal.navdrawer"
+    namespace = "com.rury.navdrawer"
     compileSdk = 34                          // Versi SDK untuk kompilasi
 
     defaultConfig {
-        applicationId = "com.naufal.navdrawer"
+        applicationId = "com.rury.navdrawer"
         minSdk = 26                          // Minimal Android 8.0 (Oreo)
         targetSdk = 34                       // Target Android 14
         versionCode = 1

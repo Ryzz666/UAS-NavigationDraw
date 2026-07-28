@@ -1,12 +1,12 @@
-package com.naufal.navdrawer.ui.components
+package com.rury.navdrawer.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.rounded.Analytics
-import androidx.compose.material.icons.rounded.Dashboard
-import androidx.compose.material.icons.rounded.Explore
+import androidx.compose.material.icons.rounded.Home
+import androidx.compose.material.icons.rounded.Kitchen
 import androidx.compose.material.icons.rounded.Settings
+import androidx.compose.material.icons.rounded.SettingsSuggest
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -15,8 +15,8 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.naufal.navdrawer.ui.navigation.Screen
-import com.naufal.navdrawer.ui.theme.*
+import com.rury.navdrawer.ui.navigation.Screen
+import com.rury.navdrawer.ui.theme.*
 
 data class DrawerMenuItem(
     val screen: Screen,
@@ -33,23 +33,23 @@ fun DrawerContent(
     val menuItems = listOf(
         DrawerMenuItem(
             screen = Screen.Home,
-            icon = Icons.Rounded.Dashboard,
-            label = "Dashboard"
+            icon = Icons.Rounded.Home,
+            label = "Beranda"
         ),
         DrawerMenuItem(
             screen = Screen.Screen1,
-            icon = Icons.Rounded.Explore,
-            label = "Explore"
+            icon = Icons.Rounded.Kitchen,
+            label = "Perangkat"
         ),
         DrawerMenuItem(
             screen = Screen.Screen2,
-            icon = Icons.Rounded.Analytics,
-            label = "Analytics"
+            icon = Icons.Rounded.SettingsSuggest,
+            label = "Statistik"
         ),
         DrawerMenuItem(
             screen = Screen.Screen3,
             icon = Icons.Rounded.Settings,
-            label = "Settings"
+            label = "Pengaturan"
         )
     )
 
@@ -74,7 +74,7 @@ fun DrawerContent(
                     modifier = Modifier.size(48.dp)
                 ) {
                     Icon(
-                        imageVector = Icons.Rounded.Dashboard,
+                        imageVector = Icons.Rounded.Home,
                         contentDescription = null,
                         tint = TextOnPrimary,
                         modifier = Modifier.padding(12.dp)
@@ -82,13 +82,13 @@ fun DrawerContent(
                 }
                 Spacer(modifier = Modifier.height(16.dp))
                 Text(
-                    text = "Modern Nav",
+                    text = "Smart Home",
                     color = TextOnPrimary,
                     fontSize = 24.sp,
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = "Professional Dashboard",
+                    text = "Kontrol Peralatan Rumah",
                     color = TextOnPrimary.copy(alpha = 0.7f),
                     fontSize = 14.sp
                 )

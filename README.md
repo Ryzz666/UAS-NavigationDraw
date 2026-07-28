@@ -1,17 +1,18 @@
-# Navigation Drawer
+# Smart Home Control App
+<img src="https://github.com/user-attachments/assets/f6bbb25e-5053-4410-a2be-6ee7b492bf77" alt="Screenshot 8" width="250" />
 
 ## Deskripsi
 
-Project ini dibuat sebagai salah satu tugas mata kuliah **Pemrograman Mobile** menggunakan Kotlin. Aplikasi menerapkan Navigation Drawer sebagai media navigasi antar halaman dengan tampilan Material 3.
+Project ini adalah aplikasi **Pusat Kontrol Smart Home** yang dikembangkan menggunakan Kotlin dan Jetpack Compose. Aplikasi ini memungkinkan pengguna untuk memantau dan mengelola peralatan rumah tangga melalui antarmuka Navigation Drawer yang modern dengan tema Material 3.
 
 ---
 
 ## Fitur
 
-- Navigation Drawer
-- Navigasi antar halaman
-- Dashboard
-- Material 3
+- **Navigation Drawer**: Navigasi intuitif antar kategori perangkat.
+- **Dashboard Peralatan**: Ringkasan perangkat aktif (Kulkas, AC, Mesin Cuci, dll).
+- **Material 3 Theme**: Tampilan responsif dengan palet warna Teal & Slate yang bersih.
+- **Smart Monitoring**: Notifikasi aktivitas perangkat secara real-time.
 
 ---
 
@@ -19,15 +20,15 @@ Project ini dibuat sebagai salah satu tugas mata kuliah **Pemrograman Mobile** m
 
 - Kotlin
 - Android Studio
-- Material 3
 - Jetpack Compose
+- Material 3 Design System
 
 ---
 
-## Identitas
+## Identitas Pengembang
 
-**Nama** : NAUFAL DZAKI NIARDI
+**Nama** : M.Yana Mabruri
 
-**NIM** : 23083000159
+**NIM** : 23083000128
 
 **Mata Kuliah** : Pemrograman Mobile
